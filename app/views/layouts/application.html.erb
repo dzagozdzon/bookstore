@@ -48,6 +48,18 @@
               </ul>
             </div>
           </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle navbar-brand" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Manage
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul>
+                <li><%=link_to "Categories", categories_path%></li>
+                <li><%=link_to "Authors", authors_path%></li>
+                <li><%=link_to "Publishers", publishers_path%></li>
+              </ul>
+            </div>
+          </li>
         </ul>  
       </div>
     </nav>
